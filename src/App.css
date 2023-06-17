@@ -6,7 +6,12 @@
 }
 
 .App-header {
-  background-color: antiquewhite;
+  background-attachment: fixed;
+	background-color: #4b0082;
+	background-image: linear-gradient(#e66465, #9198e5);
+	background-position: left;
+	background-repeat: repeat;
+	background-size: auto auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,15 +21,43 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  color: black;
+  border: 2px solid green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.output {
+  background-color: white;
+  width: 50vw;
+  height: 10vh;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+button {
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.button-box-special {
+  background: #383b3a;
+}
+
+button:focus {
+  outline: none;
+}
+
+.ten {
+  background: white;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+  transition: all 300ms;
 }
