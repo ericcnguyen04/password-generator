@@ -38,8 +38,8 @@ function App() {
           joisju
         </div>
 
-        <div class="button-box">
-          <button class="ten">Border change</button>
+        <div className="button-box">
+          <button className="ten" onClick={generatePassword}>Border change</button>
         </div>
       </header>
     </div>
