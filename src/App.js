@@ -46,7 +46,7 @@ function App() {
         <div className="button-box">
           <input type='number' className='length' value={passLength} onChange={(e) => setPassLength(e.target.value)}></input>
           <button className="ten" onClick={() => generatePassword(passLength)}>Generate Password</button>
-          <button class="twelve">Copy</button>
+          <button class="twelve" onClick={copyToClipboard}>Copy</button>
         </div>
 
         <div className='text'>
