@@ -1,5 +1,7 @@
 # Password Generator
 
+https://ericcnguyen04.github.io/password-generator/
+
 After approximately 4 months of the job hunt, I figured it is time to build my credibility by making more projects!
 
 I found people who I look up to, including a Georgia Tech Alumni. I noticed his position in the field too, I envy him. I looked through his projects, and the one I came across was a password generator.
