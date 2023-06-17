@@ -10,7 +10,7 @@ function App() {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|:;<>,.?/";
   
-    let password = "";
+    let password = "hey";
     for (let i = 0; i < length; i++) {
       // Generate a random index to select a character from the available characters
       const randomIndex = Math.floor(Math.random() * characters.length);
@@ -19,16 +19,13 @@ function App() {
       password += characters.charAt(randomIndex);
     }
   
+    console.log(password)
     return password;
   }
   
   // Example usage
   // const newPass = generatePassword(10); // Generate a password with a length of 10 characters
   // console.log(newPass);
-
-  const test = () => {
-    console.log('hello')
-  }
 
   return (
     <div>
@@ -46,7 +43,7 @@ function App() {
         </div>
 
         <div className="button-box">
-          <button className="ten" onClick={test}>Border change</button>
+          <button className="ten" onClick={generatePassword}>Border change</button>
         </div>
       </header>
     </div>
