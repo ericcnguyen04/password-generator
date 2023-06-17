@@ -19,3 +19,7 @@ I used react and javascript to develop this project. To deploy, I will use githu
 - let users determine the length of the password
 - pleasantly nice view
 
+## Post Project Reflection
+While I did do a good bit of leetcode, it has been a while that I did a project. After a good bit of hyperfocus code, I realized I have finished the project about approximately an hour and a half! 
+
+It was a fun sprint and I enjoyed every minute of it, genuinely! I got excited solving some of the roadblocks!
