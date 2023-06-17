@@ -10,9 +10,11 @@ function App() {
             Password Generator
           </h1>
         </div>
+        
         <div className='output'>
           joisju
         </div>
+
         <div class="button-box">
           <button class="ten">Border change</button>
         </div>
