@@ -44,7 +44,7 @@ function App() {
         </div>
 
         <div className="button-box">
-          <button className="ten" onClick={() => generatePassword(10)}>Border change</button>
+          <button className="ten" onClick={() => generatePassword(10)}>Generate Password</button>
         </div>
       </header>
     </div>
