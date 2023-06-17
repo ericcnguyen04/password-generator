@@ -4,7 +4,7 @@ import {useState} from 'react';
 
 function App() {
   const [password, setPassword] = useState('');
-  const [passLength, setPassLength] = useState('8')
+  const [passLength, setPassLength] = useState('12')
   
 
   function generatePassword(length) {
@@ -44,8 +44,8 @@ function App() {
         </div>
 
         <div className="button-box">
-          <input type='number' className='length' placeholder='8'></input>
-          <button className="ten" onClick={() => generatePassword(10)}>Generate Password</button>
+          <input type='number' className='length' value={passLength} onChange={(e) => setPassLength(e.target.value)}></input>
+          <button className="ten" onClick={() => generatePassword(passLength)}>Generate Password</button>
         </div>
       </header>
     </div>
