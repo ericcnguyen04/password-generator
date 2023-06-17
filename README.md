@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Password Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After approximately 4 months of the job hunt, I figured it is time to build my credibility by making more projects!
+
+I found people who I look up to, including a Georgia Tech Alumni. I noticed his position in the field too, I envy him. I looked through his projects.  One I came across was a password generator, 
 
 ## Available Scripts
 
