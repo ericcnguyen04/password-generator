@@ -5,22 +5,23 @@ import {useState} from 'react';
 function App() {
   const [password, setPassword] = useState('');
 
+  
+
   function generatePassword(length) {
     // Define the characters that can be used in the password
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|:;<>,.?/";
   
-    let password = "hey";
+    let oldPassword = "";
     for (let i = 0; i < length; i++) {
       // Generate a random index to select a character from the available characters
       const randomIndex = Math.floor(Math.random() * characters.length);
   
       // Append the selected character to the password
-      password += characters.charAt(randomIndex);
+      oldPassword += characters.charAt(randomIndex);
     }
-  
-    console.log(password)
-    return password;
+    
+    setPassword(oldPassword)
   }
   
   // Example usage
@@ -43,7 +44,7 @@ function App() {
         </div>
 
         <div className="button-box">
-          <button className="ten" onClick={generatePassword}>Border change</button>
+          <button className="ten" onClick={() => generatePassword(10)}>Border change</button>
         </div>
       </header>
     </div>
