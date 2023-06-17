@@ -24,9 +24,9 @@ function App() {
     setPassword(oldPassword)
   }
   
-  // Example usage
-  // const newPass = generatePassword(10); // Generate a password with a length of 10 characters
-  // console.log(newPass);
+  function copyToClipboard() {
+    navigator.clipboard.writeText(password); // Copy the password to the clipboard
+  }
 
   return (
     <div>
@@ -38,7 +38,7 @@ function App() {
         </div>
 
         <div>
-        <div className='output'>
+        <div className='output' onClick={copyToClipboard}>
           {password}
         </div>
         </div>
